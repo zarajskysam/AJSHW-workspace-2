@@ -1,0 +1,31 @@
+{
+  "name": "babelhw",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DBabel HomeWork\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarajskysam/AJSHW-workspace-2.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "zarajskysam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zarajskysam/AJSHW-workspace-2/issues"
+  },
+  "homepage": "https://github.com/zarajskysam/AJSHW-workspace-2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
